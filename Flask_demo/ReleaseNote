@@ -1,0 +1,15 @@
+flask是一个轻量级的python后端框架
+知识点：
+1、flask路由，用来匹配url对象
+2、request对象，abort函数
+3、模板
+4、flask数据库
+5、表单
+6、ajax
+7、管理系统小案例
+官网：https://dormousehole.readthedocs.io/en/latest/
+安装：pip install flask -i https://pypi.douban.com
+
+学习过程：
+helloword -> hello_redirect -> hello_form -> hello_json -> hello_abort
+->hello_template -> hello_form2 -> hello_database

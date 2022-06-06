@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+hello world
+<br>
+{{ data }}
+<br>
+{{ data['name'] }}
+{{ data.name }}
+<br>
+{{ data['age'] }}
+<br>
+{{ data['mylist'][0] }}
+{{ data['mylist'] }}
+count: {{ data.mylist[1] + data.mylist[2] }}
+<br>
+{{"hello world" | upper}}
+{{"hello world" | replace('hello', 'hi')}}
+<br>
+<!--自定义过滤器li2每个2个取一个值-->
+{{ data['mylist'] | li2}}
+
+</body>
+</html>
